@@ -2,57 +2,26 @@ TO DO
 ======
 
 Instructions to build and package
-Instructions to install on server
-Instructions to run on server
-
-
-
-This is your new Play application
 =================================
+Since this is an activator project, building and running can be done using activator ui in browser.
 
-This file will be packaged with your application when using `activator dist`.
+To package, use command "activator dist" command. A zip file is generated. This needs to be transferred to server.
 
-There are several demonstration files available in this template.
+Instructions to install on server
+=================================
+Unzip the dist zip file. 
 
-Controllers
-===========
 
-- HomeController.scala:
+Instructions to run on server
+=============================
+cd to the directory newly created when dist zip was unzipped.
 
-  Shows how to handle simple HTTP requests.
+In file conf/application.conf change the redisIP = localhost to correct host. 
 
-- AsyncController.scala:
+Use the command 
 
-  Shows how to do asynchronous programming when handling a request.
+bin/website -Dplay.crypto.secret=xyz -Dhttp.port=8080
 
-- CountController.scala:
 
-  Shows how to inject a component into a controller and use the component when
-  handling requests.
 
-Components
-==========
 
-- Module.scala:
-
-  Shows how to use Guice to bind all the components needed by your application.
-
-- Counter.scala:
-
-  An example of a component that contains state, in this case a simple counter.
-
-- ApplicationTimer.scala:
-
-  An example of a component that starts when the application starts and stops
-  when the application stops.
-
-Filters
-=======
-
-- Filters.scala:
-
-  Creates the list of HTTP filters used by your application.
-
-- ExampleFilter.scala
-
-  A simple filter that adds a header to every response.

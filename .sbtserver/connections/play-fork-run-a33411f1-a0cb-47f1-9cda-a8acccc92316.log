@@ -1,0 +1,5 @@
+New log file opened at Sat Apr 15 13:23:34 EDT 2017 by 9381@SF-PC28
+Sending msg to client play-fork-run-a33411f1-a0cb-47f1-9cda-a8acccc92316: DetachedLogEvent(LogMessage(debug,sbt server socket logs are in: /home/rgannama/Documents/wdp/webserver/.sbtserver/connections/master.log))
+Sending msg to client play-fork-run-a33411f1-a0cb-47f1-9cda-a8acccc92316: DetachedLogEvent(LogMessage(debug,sbt general server logs are in: /home/rgannama/Documents/wdp/webserver/.sbtserver/master.log))
+Sending msg to client play-fork-run-a33411f1-a0cb-47f1-9cda-a8acccc92316: DetachedLogEvent(LogMessage(debug,sbt client logs are in: /home/rgannama/Documents/wdp/webserver/.sbtserver/connections/play-fork-run-a33411f1-a0cb-47f1-9cda-a8acccc92316.log))
+Reading next message from client.
